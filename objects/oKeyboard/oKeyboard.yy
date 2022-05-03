@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sKeyboard",
+    "path": "sprites/sKeyboard/sKeyboard.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oEntityParent",

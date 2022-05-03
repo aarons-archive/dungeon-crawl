@@ -1,33 +1,28 @@
 event_inherited();
 
 if (global.box_debug) {
+	draw_set_alpha(0.5)
+	draw_set_color(c_red)
 	draw_rectangle(
-		bbox_right, 
-		bbox_top + global.box_collision_check_inset,
-		bbox_right + global.box_collision_check_distance, 
-		bbox_bottom - global.box_collision_check_inset, 
+		bbox_right, bbox_top + 0,
+		bbox_right + 1, bbox_bottom - 0,  
 		false
 	)
 	draw_rectangle(
-		bbox_left - global.box_collision_check_distance, 
-		bbox_top + global.box_collision_check_inset,
-		bbox_left, 
-		bbox_bottom - global.box_collision_check_inset,
+		bbox_left, bbox_top + 0,
+		bbox_left - 1, bbox_bottom - 0,
 		false
 	)
 	draw_rectangle(
-		bbox_left + global.box_collision_check_inset, 
-		bbox_bottom,
-		bbox_right - global.box_collision_check_inset, 
-		bbox_bottom + global.box_collision_check_distance,
+		bbox_left + 0, bbox_bottom,
+		bbox_right - 0, bbox_bottom + 1,
 		false
 	)
 	draw_rectangle(
-		bbox_left + global.box_collision_check_inset, 
-		bbox_top - global.box_collision_check_distance,
-		bbox_right - global.box_collision_check_inset, 
-		bbox_top,
+		bbox_left + 0, bbox_top - 1,
+		bbox_right - 0, bbox_top,
 		false
 	)
+	draw_set_alpha(1)
 }
 
