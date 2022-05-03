@@ -88,6 +88,7 @@
     {"id":{"name":"obj_spot_light_rotate","path":"objects/obj_spot_light_rotate/obj_spot_light_rotate.yy",},"order":8,},
     {"id":{"name":"light_static_get_array","path":"scripts/light_static_get_array/light_static_get_array.yy",},"order":0,},
     {"id":{"name":"obj_light_ball","path":"objects/obj_light_ball/obj_light_ball.yy",},"order":2,},
+    {"id":{"name":"_globals","path":"scripts/_globals/_globals.yy",},"order":2,},
     {"id":{"name":"lighting_set_dirty","path":"scripts/lighting_set_dirty/lighting_set_dirty.yy",},"order":8,},
     {"id":{"name":"rm_lighting_demo_single_line","path":"rooms/rm_lighting_demo_single_line/rm_lighting_demo_single_line.yy",},"order":3,},
     {"id":{"name":"lighting_free","path":"scripts/lighting_free/lighting_free.yy",},"order":6,},
