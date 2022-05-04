@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Wire Objects",
-    "path": "folders/Blocks/Wire Objects.yy",
+    "name": "Objects",
+    "path": "folders/Blocks/Wires/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oWireRightLeftDown",

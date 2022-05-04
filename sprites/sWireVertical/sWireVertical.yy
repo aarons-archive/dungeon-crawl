@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Wire Sprites",
-    "path": "folders/Blocks/Wire Sprites.yy",
+    "name": "Sprites",
+    "path": "folders/Blocks/Wires/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWireVertical",
