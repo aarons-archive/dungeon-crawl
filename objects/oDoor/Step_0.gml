@@ -35,8 +35,19 @@ else {
 }
 
 if (_opened == true) {
-	image_index = 2
+	if (ceil(image_index) == 14) {
+		image_speed = 0
+	}
+	else {
+		image_speed = 1
+	}
 }
 else if (_opened == false) {
-	image_index = _original_frame
+	if (ceil(image_index) == 14) {
+		image_speed = -1
+	}
+	else if (ceil(image_index) == 1){
+		image_speed = 0
+	}
 }
+
