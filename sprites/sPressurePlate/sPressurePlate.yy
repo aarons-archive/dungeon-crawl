@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 23,
   "bbox_top": 0,
-  "bbox_bottom": 21,
+  "bbox_bottom": 20,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 24,
-  "height": 22,
+  "height": 21,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"b894146e-24d5-4a30-8797-80fa0f5ede89","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b894146e-24d5-4a30-8797-80fa0f5ede89","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":{"name":"3728a639-a900-4f9d-83ba-c0b641f2e6b0","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPressurePlate","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"b894146e-24d5-4a30-8797-80fa0f5ede89","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a4528111-83f4-4b9d-8e70-895ac9d3b2c8","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a4528111-83f4-4b9d-8e70-895ac9d3b2c8","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":{"name":"3728a639-a900-4f9d-83ba-c0b641f2e6b0","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPressurePlate","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"a4528111-83f4-4b9d-8e70-895ac9d3b2c8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"48248455-461e-4696-b17f-b619daf90ce5","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"48248455-461e-4696-b17f-b619daf90ce5","path":"sprites/sPressurePlate/sPressurePlate.yy",},"LayerId":{"name":"3728a639-a900-4f9d-83ba-c0b641f2e6b0","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPressurePlate","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","name":"48248455-461e-4696-b17f-b619daf90ce5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sPressurePlate","path":"sprites/sPressurePlate/sPressurePlate.yy",},
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"de979127-0cb8-45d0-a068-22f26a7c4d71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b894146e-24d5-4a30-8797-80fa0f5ede89","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"775a873f-7ce4-4d71-af49-cf1d08d14907","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a4528111-83f4-4b9d-8e70-895ac9d3b2c8","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"219788c3-94b6-4738-bc29-7c6b6c0dd8a1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48248455-461e-4696-b17f-b619daf90ce5","path":"sprites/sPressurePlate/sPressurePlate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 12,
-    "yorigin": 11,
+    "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPressurePlate","path":"sprites/sPressurePlate/sPressurePlate.yy",},

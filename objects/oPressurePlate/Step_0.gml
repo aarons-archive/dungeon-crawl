@@ -25,16 +25,21 @@ if (_pressed == true) {
 	
 	image_index = 1
 	
-	var _wire_collision = collision_rectangle(
+	var _list = ds_list_create()
+	var _wires = collision_rectangle_list(
 		bbox_left - 1, bbox_top - 1,
 		bbox_right + 1, bbox_bottom + 1,  
-		oWire, true, false
+		oWire, true, false,
+		_list, false
 	)
-	if (_wire_collision != noone) {
-		_wire_collision._powered = true
-		_wire_collision._powered_by = self
+	show_debug_message(_wires)
+	if (_wires > 0) {
+		for (var i = 0; i < _wires; ++i;) {
+			_list[| i]._powered = true
+			_list[| i]._powered_by = self
+		}
 	}
-
+	ds_list_destroy(_list)
 }
 else if (_pressed == false) { 
 	image_index = 0 
