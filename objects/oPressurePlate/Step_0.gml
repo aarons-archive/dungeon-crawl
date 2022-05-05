@@ -32,7 +32,6 @@ if (_pressed == true) {
 		oWire, true, false,
 		_list, false
 	)
-	show_debug_message(_wires)
 	if (_wires > 0) {
 		for (var i = 0; i < _wires; ++i;) {
 			_list[| i]._powered = true
