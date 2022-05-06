@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sKeyboard",
-    "path": "sprites/sKeyboard/sKeyboard.yy",
+    "name": "sController",
+    "path": "sprites/sController/sController.yy",
   },
   "solid": false,
   "visible": true,

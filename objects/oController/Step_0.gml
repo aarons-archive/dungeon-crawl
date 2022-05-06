@@ -2,16 +2,16 @@ switch(_state) {
 	
 	default:
 	
+		detect_gamepad()
+	
 		// get movement inputs and do movement
-		var _horizontal_input = keyboard_check(global.keyboard_right_key) - keyboard_check(global.keyboard_left_key)
-		var _vertical_input = keyboard_check(global.keyboard_down_key) - keyboard_check(global.keyboard_up_key)
+		var _horizontal_input = sign(gamepad_axis_value(_gamepad_slot, global.controller_horizontal))
+		var _vertical_input = sign(gamepad_axis_value(_gamepad_slot, global.controller_vertical))
 		movement(_horizontal_input, _vertical_input)
 		
-		push_box()
+		if (gamepad_button_check(_gamepad_slot, global.controller_box_move_button)) {
+			push_box()
+		}
 		
 		break;
-}
-
-if (keyboard_check_pressed(ord("R"))) {
-	restart_game()
 }

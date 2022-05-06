@@ -7,7 +7,9 @@ switch(_state) {
 		var _vertical_input = keyboard_check(global.keyboard_down_key) - keyboard_check(global.keyboard_up_key)
 		movement(_horizontal_input, _vertical_input)
 		
-		push_box()
+		if (mouse_check_button(global.keyboard_box_move_key)) {
+			push_box()
+		}
 		
 		break;
 }
