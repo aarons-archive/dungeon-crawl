@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sSolid",
-    "path": "sprites/sSolid/sSolid.yy",
+    "name": "sIronDoor",
+    "path": "sprites/sIronDoor/sIronDoor.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_shadow_caster",
-    "path": "objects/obj_shadow_caster/obj_shadow_caster.yy",
+    "name": "oDoor",
+    "path": "objects/oDoor/oDoor.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Blocks.yy",
+    "name": "Objects",
+    "path": "folders/Blocks/Doors/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSolid",
+  "name": "oIronDoor",
   "tags": [],
   "resourceType": "GMObject",
 }

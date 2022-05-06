@@ -6,53 +6,9 @@ function movement(_horizontal_input, _vertical_input) {
 		_vertical_speed = clamp(lengthdir_y(_acceleration, _direction), -_max_acceleration, _max_acceleration)
 	} 
 	else {
-		if (_horizontal_speed > _deceleration) {
-			_horizontal_speed -= _deceleration
-		} 
-		else if (_horizontal_speed < -_deceleration) {
-			_horizontal_speed += _deceleration
-		} 
-		else {
-			_horizontal_speed = 0
-		}
-		if (_vertical_speed > _deceleration) {
-			_vertical_speed -= _deceleration
-		} 
-		else if (_vertical_speed < -_deceleration) {
-			_vertical_speed += _deceleration
-		} 
-		else {
-			_vertical_speed = 0
-		}
+		_horizontal_speed = 0
+		_vertical_speed = 0
 	}
-
-	/*
-    // calculate movement speed
-	if (_horizontal_input != 0) {
-		_horizontal_speed += _acceleration * _horizontal_input
-		_horizontal_speed = clamp(_horizontal_speed, -_max_acceleration, _max_acceleration)
-	} else {
-		if (_horizontal_speed > _deceleration) {
-			_horizontal_speed -= _deceleration
-		} else if (_horizontal_speed < -_deceleration) {
-			_horizontal_speed += _deceleration
-		} else {
-			_horizontal_speed = 0
-		}
-	}
-	if (_vertical_input != 0) {
-		_vertical_speed += _acceleration * _vertical_input
-		_vertical_speed = clamp(_vertical_speed, -_max_acceleration, _max_acceleration)
-	} else {
-		if (_vertical_speed > _deceleration) {
-			_vertical_speed -= _deceleration
-		} else if (_vertical_speed < -_deceleration) {
-			_vertical_speed += _deceleration
-		} else {
-			_vertical_speed = 0
-		}
-	}
-	*/
 	
 	// check for collisions
 	if (place_meeting(x + _horizontal_speed, y, oSolid)) {

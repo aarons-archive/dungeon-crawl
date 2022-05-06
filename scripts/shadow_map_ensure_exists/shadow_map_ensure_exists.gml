@@ -12,8 +12,8 @@ function shadow_map_ensure_exists(argument0) {
 	}
 
 	var camera = lighting_get_active_camera();
-	var vw = camera[eLightingCamera.Width]
-	var vh = camera[eLightingCamera.Height];
+	var vw = 640
+	var vh = 360
 
 	if(shadowMap == undefined || !surface_exists(shadowMap) || surface_get_width(shadowMap) != vw || surface_get_height(shadowMap) != vh) {
 		if(shadowMap != undefined && surface_exists(shadowMap)) {

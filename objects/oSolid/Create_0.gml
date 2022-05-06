@@ -1,4 +1,7 @@
-event_inherited();
+event_inherited()
 
-polygon = polygon_from_instance(id);
+polygon = polygon_from_instance(id)
 
+if (object_index == oSolid) {
+	flags |= eShadowCasterFlags.Static
+}

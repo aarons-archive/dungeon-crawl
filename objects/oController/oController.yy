@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sSolid",
-    "path": "sprites/sSolid/sSolid.yy",
+    "name": "sKeyboard",
+    "path": "sprites/sKeyboard/sKeyboard.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_shadow_caster",
-    "path": "objects/obj_shadow_caster/obj_shadow_caster.yy",
+    "name": "oEntityParent",
+    "path": "objects/oEntityParent/oEntityParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,15 +25,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Blocks.yy",
+    "name": "Entities",
+    "path": "folders/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSolid",
+  "name": "oController",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,4 +1,3 @@
-event_inherited()
 
 /////////////////////////////////////////////////////////////////
 // Check for collisions with other solid blocks before moving. //
@@ -28,3 +27,7 @@ y += _y_move
 ////////////////////////////
 _x_move = 0
 _y_move = 0
+
+
+polygon = polygon_from_instance(id)
+
