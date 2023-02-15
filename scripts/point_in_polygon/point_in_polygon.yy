@@ -1,12 +1,11 @@
 {
-  "isDnD": false,
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "point_in_polygon",
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
     "name": "Internal",
     "path": "folders/Lighting/Scripts/Misc/Internal.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "point_in_polygon",
-  "tags": [],
-  "resourceType": "GMScript",
 }
